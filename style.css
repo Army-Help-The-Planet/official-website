@@ -246,6 +246,7 @@ main{
     z-index: 1;
     position: absolute;
     height: 75%;
+    visibility: visible;
 }
 
 .quotes-left-arrow{
