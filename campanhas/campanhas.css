@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+main {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    min-width: 0;
+    min-height: 0;
+}
+
+html  *{
+    /* border:red;
+    border-style: solid;  */
+}
+
+body{
+  height: auto;
+  overflow: auto;
+  min-width: 0;
+  min-height: 0;
+}
+
+#campanhas-titulo{
+    width: 100%;
+    background-color: var(--ahtp_branco);
+    display: flex;
+    align-items:baseline;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+#campanhas-titulo-texto{
+    font-size: 10vw;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 6vw;
+}
+
+@media (max-width: 473px){
+
+#campanhas-titulo-texto {
+font-size: 13vw;
+}
+
+}

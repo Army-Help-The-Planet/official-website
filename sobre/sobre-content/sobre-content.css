@@ -1,0 +1,229 @@
+.sobrenos-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    margin-top: 3vh;
+}
+
+#sobrenos {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 14vh;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.section {
+    background-color: var(--ahtp_verde);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 95vh;
+}
+
+.titulo-secao {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 7vh 0;
+}
+
+#army .titulo-secao{
+    padding-top: 7vh;
+    padding-bottom: 3vh;
+}
+
+.logo-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    max-width: 50%;
+}
+
+.titulo-div {
+    display: flex;
+    width: 70%;
+}
+
+.titulo {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 13vh;
+    text-decoration: none;
+    color: var(--ahtp_textos);
+}
+
+.descricao-div {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+
+}
+
+.descricao-area {
+    width: 75%;
+    padding-right: 13vw;
+    text-align: justify;
+}
+
+.texto {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 6.4vh;
+    line-height:1.2;
+    text-decoration: none;
+    color: var(--ahtp_textos);
+    /* text-align: justify; */
+    /* border: solid; */
+    /* text-justify: distribute; */
+}
+
+.logo-area-img {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#army_img,
+#theplanet_img {
+    filter: brightness(0);
+}
+
+#help {
+    background-color: white;
+    padding: 20vh 0;
+}
+
+#help .logo-area {
+    width: 24vw;
+
+}
+
+#help .logo-area-img {
+    height: 10vh;
+
+}
+
+#help .titulo-div {
+    display: flex;
+    justify-content: right;
+}
+
+#help .titulo {
+    color:black;
+}
+
+#help .texto {
+    color: black;
+}
+
+#help .descricao-div {
+    display: flex;
+    justify-content: left;
+}
+
+#help .descricao-area {
+    padding-left: 13vw;
+    padding-right: 0;
+}
+
+#help .titulo-secao {
+    justify-content: right;
+}
+
+#theplanet .logo-area{
+    width: 17%;
+}
+
+#theplanet .logo-area-img{
+    height: 13vh;
+}
+
+@media (min-width: 496px) {
+    #sobreSlide {
+        display: none !important;
+    }
+}
+
+@media (max-width: 496px) {
+    footer {
+        display: none !important;
+    }
+}
+
+@media (max-width: 496px) and (min-width: 1px) {
+
+    .section,
+    .sobrenos-div {
+        display: none;
+    }
+}
+
+@media (max-width: 673px) and (min-width: 496px) {
+    .titulo-secao {
+        flex-direction: column;
+    }
+
+    #help .titulo-secao {
+        flex-direction: column-reverse;
+    }
+
+    #help .titulo-div {
+        justify-content: center;
+    }
+
+    .titulo-secao>* {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #help .descricao-area {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .descricao-div {
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    .descricao-area {
+        width: 80%;
+        padding: 0;
+    }
+
+    .texto {
+        font-size: 4vh;
+        padding: 0;
+    }
+}
+
+@media (max-width: 1260px) and (min-width: 673px){
+    .titulo{
+        font-size: 10vh;
+    }
+
+    .texto{
+        font-size: 5vh;
+    }
+
+    .logo-area-img {
+        height: 13vh;
+    }
+}
